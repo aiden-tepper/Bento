@@ -11,10 +11,10 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Aiden',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '1de835fd2aaa4b1641e067ca1b88c9b9', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '33.993118',
+	defaultLongitude: '-118.456200',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -42,7 +42,7 @@ const CONFIG = {
 	changeThemeByOS: true,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
+	changeThemeByHour: true,
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Gmail',
+			icon: 'mail',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Chess',
+			icon: 'crown',
+			link: 'https://www.chess.com/home',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'ChatGPT',
+			icon: 'bot',
+			link: 'https://chat.openai.com/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Hacker News',
+			icon: 'newspaper',
+			link: 'https://news.ycombinator.com/news',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'One Pace',
+			icon: 'tv',
+			link: 'https://docs.google.com/spreadsheets/d/1HQRMJgu_zArp-sLnvFMDzOyjdsht87eFLECxMK858lA/edit#gid=0',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Job Search',
+			icon: 'briefcase',
+			link: 'https://docs.google.com/spreadsheets/d/182_L28bz-88dkUcuXP7jKjqa0UXt5oyOoJGO8azbB1M/edit#gid=1959778931',
 		},
 	],
 
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'YouTube',
+					link: 'https://www.youtube.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Rentry',
+					link: 'https://rentry.co/onepace',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Mix With The Masters',
+					link: 'https://mixwiththemasters.com/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'macProVideo',
+					link: 'https://www.macprovideo.com/library/application/Ableton',
 				},
 			],
 		},
@@ -162,19 +162,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					link: 'https://www.linkedin.com/in/aiden-tepper/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'GitHub',
+					link: 'https://github.com/aiden-tepper',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Dex',
+					link: 'https://getdex.com/appv3/contacts',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Drive',
+					link: 'https://drive.google.com/drive/u/0/my-drive',
 				},
 			],
 		},
